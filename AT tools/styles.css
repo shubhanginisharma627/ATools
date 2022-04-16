@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+.myRightCtn{
+   position: relative;
+     width: 50px;
+     height: 0%;
+     object-fit: contain;
+     float: left;
+}
+
+.myLeftCtn{
+    position: relative;
+    height: 100%;
+
+}
+
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 4px;
+    font-weight: normal;
+}
+.form-control{
+    padding: 25px 20px;
+}
+.pas{
+    float: right;
+}
+.forcheck{
+    float: left;
+}
+.login{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand{
+    color: #163057;
+    font-weight: bold;
+}
+.dot{
+    color: orange;
+}
+#custom-nav{
+    box-shadow: 0px 8px 8px -6px rgba(0,0,128,.1);
+    z-index: 1;
+}
+img{
+    z-index: 2;
+}
+
+.first{
+  background-color: #163057;
+  color: white;
+    font-weight: normal;
+}
+.second{
+   
+    background-color: orange;
+    color: white;
+    font-weight: normal;
+}
+h1{
+    color: #163057;
+    font-weight: bold;
+}
+p{
+    font-weight: lighter;
+    color: #163057;
+}
+label,.pas{
+    font-weight: lighter;
+}
+.first:hover{
+    color: #163057;
+    background-color: white;
+    
+}
+.pas{
+    text-decoration: none;
+}
+@media(max-width:687px){
+  img{
+      display: none;
+  }
+}
